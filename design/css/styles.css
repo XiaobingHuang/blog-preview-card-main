@@ -17,10 +17,12 @@ body {
 .card-container{
     background-color: hsl(0, 0%, 100%);
     width: 350px;
-    /* text-align: center; */
     padding: 1.5rem;
     border-radius: 15px;
+    position: relative;
+    border: 2px solid black; /* Primary border color */
 }
+
 .card-container .card-image{
     width: 100%;
     height: auto;
@@ -39,11 +41,18 @@ body {
 .card-container .avatar-image{
     width: 10%;
     height: auto;
+    margin-right: 1rem;
+    
 }
 
 h2:hover{
     color:  hsl(47, 88%, 63%);
 }
 p {
+    display: flex;
     line-height: 1.5;
+    align-items: center;
+    
 }
+
+
